@@ -1,0 +1,5 @@
+document
+
+
+console.log(document)
+
