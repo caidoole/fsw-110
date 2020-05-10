@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3> Travel Form</h3>
+    <form id="form">
+        <div id="contact">
+            <input type="text" id="firstName" placeholder="First Name" />
+            <input type="text" id="lastName" placeholder="Last Name" />
+            <input type="tel" id="phone" placeholder="Phone Number" />
+            <input type="number" id="age" placeholder="Age" />
+        </div>
+        <h4>Please Select Gender:</h4>
+        <div id="gender">
+            <input type="radio" id="male" name="gender" value="Male"> Male </input>
+            <input type="radio" id="female" name="gender" value="Female"> Female </input>
+            <input type="radio" id="other" name="gender" value="Non-Binaray"> Non-Binary </input><br>
+        </div>
+        <h4>Please select dietary choices:</h4>
+        <div id="dietSelect">
+            <input type="checkbox" id="diet1" name="diet" value="Keto">Keto </input>
+            <input type="checkbox" id="diet2" name="diet" value="Gluten Free"> Gluten Free </input>
+            <input type="checkbox" id="diet3" name="diet" value="Vegaterian"> Vegaterian </input>
+            <input type="checkbox" id="diet4" name="diet" value="Ominvore"> Ominvore </input><br>
+        </div>
+        <h4>Please select destination: </h4>
+        <select type="list" id="location" placeholder="Location Destintaion ">
+            <option name="Select">-- Select --</option>
+            <option name="Spain">Spain</option>
+            <option name="Holland">Holland</option>
+            <option name="Mars">Mars</option>
+            <option name="PEI">PEI</option>
+        </select>
+        <br><br>
+        <Button type="submit" id="submit" value="submit">Submit</Button>
+
+    </form>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
